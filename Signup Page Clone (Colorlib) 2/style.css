@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body {
+    background: url('bg.jpg') no-repeat center center / cover;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+    height: 100vh;
+    background: rgba(26, 26, 26, 0.3);
+}
+
+.main {
+   min-width: 300px;
+   width: 25%;
+   margin: 8rem auto;
+}
+
+.main header h1 {
+    font-weight: 500;
+    font-size: 1.7rem;
+    color: white;
+    margin-bottom: 3.7rem;
+    text-align: center;
+}
+
+.main .signin {
+    width: 100%
+}
+
+.main .signin h2 {
+    font-weight: lighter;
+    font-size: 1.8rem;
+    color: white;
+    text-align: center;
+    margin-bottom: 1.7rem;
+}
+
+.main .signin form {
+    width: 100%; 
+}
+
+::placeholder {
+    color: white;
+    font-size: 0.9rem;
+    opacity: .6;
+}
+
+.main .signin .input-text {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid rgba(255,255,255,.0);
+    border-radius: 50px;
+    background: rgba(255,255,255,.1);
+    transition: all .5s;
+}
+
+input.input-text[type="text"]:hover,
+input.input-text[type="password"]:hover {
+    border: 1px solid rgba(221, 221, 221, 0.7);
+    background: rgba(255,255,255,.0);
+}
+
+.primary-btn {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(251, 206, 180);
+    font-size: 0.9rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.more {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem; 
+}
+
+.more .chx-label {
+    font-size: 0.9rem;
+    padding-left: 0.4rem;
+    color: rgb(251, 206, 180);
+}
+
+.more input[type=checkbox] {
+    cursor: pointer;
+    accent-color: rgb(251, 206, 180);
+} 
+
+.more a {
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: white;
+}
+
+.or {
+    text-align: center;
+    color: white;
+    margin-bottom: 1.3rem;
+}
+
+.links {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 7px;
+}
+
+.secondary-btn {
+    width: 50%;
+    padding: 1rem;
+    background: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* 251, 206, 180 */
+

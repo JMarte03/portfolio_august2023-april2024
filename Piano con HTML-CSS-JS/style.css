@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: url(bg.webp) no-repeat center center / cover;
+}
+
+.piano-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1280px;
+    padding: 40px;
+    background-color: #eacfbed7;
+    border-radius: 20px;
+}
+
+.keys {
+    display: flex;
+}
+
+.octave-two, .octave-three {
+    margin-left: -1px;
+}
+
+.keys .white-key {
+    padding-top: 120px;
+    min-width: 60px;
+    width: 70px;
+    height: 230px;
+    outline: none;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-radius: 8px;
+    background: linear-gradient(#fff 96%, #eee 4%);
+    transition: all 0.3s;
+}
+
+.keys .f,
+.keys .c {
+    margin: 0 0 0 -2px;
+}
+
+.keys .black-key {
+    min-width: 38px;
+    width: 44px;
+    height: 140px;
+    z-index: 2;
+    margin: 0 -22px 0 -22px;
+    outline: none;
+    color: white;
+    background: linear-gradient(#333, #000);
+    border-radius: 0 0 5px 5px;
+    transition: all 0.3s;
+}
+
+.playing-w {
+    border-bottom: 10px solid black;
+    opacity: .9;
+}
+
+.playing-b {
+    border-top: 10px solid black;
+}
+
+@media (max-width:1230px) {
+    .octave-three {
+        display: none;
+    }
+
+    .piano-container {
+        width: 980px;
+    } 
+}
+
+@media (max-width:850px) {
+    .octave-two {
+        display: none;
+    }
+
+    .piano-container {
+        width: 480px;
+    }
+}

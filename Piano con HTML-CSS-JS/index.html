@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="piano-container">
+        <div class="keys octave-one">
+            <button class="key white-key c" data-key="81">Q</button>
+            <button class="key black-key" data-key="87">W</button>
+            <button class="key white-key" data-key="69">E</button>
+            <button class="key black-key" data-key="82">R</button>
+            <button class="key white-key" data-key="84">T</button>
+            <button class="key white-key f" data-key="89">Y</button>
+            <button class="key black-key" data-key="85">U</button>
+            <button class="key white-key" data-key="73">I</button>
+            <button class="key black-key" data-key="79">O</button>
+            <button class="key white-key" data-key="80">P</button>
+            <button class="key black-key" data-key="219">[</button>
+            <button class="key white-key" data-key="221">]</button>
+        </div>
+        <div class="keys octave-two">
+            <button class="oct-two key white-key c" data-key="65">A</button>
+            <button class="oct-two key black-key" data-key="83">S</button>
+            <button class="oct-two key white-key" data-key="68">D</button>
+            <button class="oct-two key black-key" data-key="70">F</button>
+            <button class="oct-two key white-key" data-key="71">G</button>
+            <button class="oct-two key white-key f" data-key="72">H</button>
+            <button class="oct-two key black-key" data-key="74">J</button>
+            <button class="oct-two key white-key" data-key="75">K</button>
+            <button class="oct-two key black-key" data-key="76">L</button>
+            <button class="oct-two key white-key" data-key="186">;</button>
+            <button class="oct-two key black-key" data-key="222">'</button>
+            <button class="oct-two key white-key" data-key="13">Ent</button>
+        </div>
+        <div class="keys octave-three">
+            <button class="oct-three key white-key c" data-key="90">Z</button>
+            <button class="oct-three key black-key" data-key="88">X</button>
+            <button class="oct-three key white-key" data-key="67">C</button>
+            <button class="oct-three key black-key" data-key="86">V</button>
+            <button class="oct-three key white-key" data-key="66">B</button>
+            <button class="oct-three key white-key f" data-key="78">N</button>
+            <button class="oct-three key black-key" data-key="77">M</button>
+            <button class="oct-three key white-key" data-key="188">,</button>
+            <button class="oct-three key black-key" data-key="190">.</button>
+            <button class="oct-three key white-key" data-key="191">/</button>
+            <button class="oct-three key black-key" data-key="16">Shf</button>
+            <button class="oct-three key white-key" data-key="32">Spc</button>
+        </div>
+    </div>
+
+    <audio data-key="81" src="sounds/C2.wav"></audio>
+    <audio data-key="87" src="sounds/C2sharp.wav"></audio>
+    <audio data-key="69" src="sounds/D2.wav"></audio>
+    <audio data-key="82" src="sounds/D2sharp.wav"></audio>
+    <audio data-key="84" src="sounds/E2.wav"></audio>
+    <audio data-key="89" src="sounds/F2.wav"></audio>
+    <audio data-key="85" src="sounds/F2sharp.wav"></audio>
+    <audio data-key="73" src="sounds/G2.wav"></audio>
+    <audio data-key="79" src="sounds/G2sharp.wav"></audio>
+    <audio data-key="80" src="sounds/A2.wav"></audio>
+    <audio data-key="219" src="sounds/A2sharp.wav"></audio>
+    <audio data-key="221" src="sounds/B2.wav"></audio>
+
+    <audio data-key="65" src="sounds/C3.wav"></audio>
+    <audio data-key="83" src="sounds/C3sharp.wav"></audio>
+    <audio data-key="68" src="sounds/D3.wav"></audio>
+    <audio data-key="70" src="sounds/D3sharp.wav"></audio>
+    <audio data-key="71" src="sounds/E3.wav"></audio>
+    <audio data-key="72" src="sounds/F3.wav"></audio>
+    <audio data-key="74" src="sounds/F3sharp.wav"></audio>
+    <audio data-key="75" src="sounds/G3.wav"></audio>
+    <audio data-key="76" src="sounds/G3sharp.wav"></audio>
+    <audio data-key="186" src="sounds/A3.wav"></audio>
+    <audio data-key="222" src="sounds/A3sharp.wav"></audio>
+    <audio data-key="13" src="sounds/B3.wav"></audio>
+
+    <audio data-key="90" src="sounds/C4.wav"></audio>
+    <audio data-key="88" src="sounds/C4sharp.wav"></audio>
+    <audio data-key="67" src="sounds/D4.wav"></audio>
+    <audio data-key="86" src="sounds/D4sharp.wav"></audio>
+    <audio data-key="66" src="sounds/E4.wav"></audio>
+    <audio data-key="78" src="sounds/F4.wav"></audio>
+    <audio data-key="77" src="sounds/F4sharp.wav"></audio>
+    <audio data-key="188" src="sounds/G4.wav"></audio>
+    <audio data-key="190" src="sounds/G4sharp.wav"></audio>
+    <audio data-key="191" src="sounds/A4.wav"></audio>
+    <audio data-key="16" src="sounds/A4sharp.wav"></audio>
+    <audio data-key="32" src="sounds/B4.wav"></audio>
+
+   <script src="main.js"></script> 
+
+</body>
+
+</html>

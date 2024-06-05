@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+
+  color: #31241E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  color: white;
+  height: 700px;
+  max-width: 100%;
+  background-image: url('img/sunset.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: rgba(49, 36, 30, 0.5);
+  background-blend-mode: overlay;
+  padding: 40px;
+}
+
+h1 {
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.top ul li {
+  margin: 0 25px;
+}
+
+.top a {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  transition: .3s;
+}
+
+.top a:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 30px;
+}
+
+.bottom {
+  max-width: 70%;
+  margin: 200px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  text-align: center;
+}
+
+.start {
+  background-color: transparent;
+  color: white;
+  text-decoration: none;
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  text-transform: uppercase;
+  font-weight: lighter;
+  padding: 13px 40px;
+  border-radius: 30px;
+  transition: .4s;
+}
+
+.start:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 2px solid transparent;
+  color: black;
+  cursor: pointer;
+}
+
+#title {
+  font-size: 70px;
+  font-weight: bold;
+}
+
+/* WHY MARS SECTION */
+
+#why-section {
+  width: 60%;
+  margin: 70px auto;
+  padding: 20px;
+}
+
+.why-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.why-text {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.why-text p {
+  color: #31241E;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+.why-text h2 {
+  color: black;
+  font-weight: lighter;
+  text-align: center;
+  text-transform: uppercase;
+  border-bottom: 1px solid #31241E;
+  padding-bottom: 10px;
+}
+
+.why-img {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  overflow: hidden;
+}
+
+.why-img img {
+  max-width: 60%;
+  height: auto;
+  display: block;
+  border-radius: 130px;
+  transition: 0.5s ease;
+}
+
+.why-img:hover img {
+  padding: 5px;
+}
+
+/* THREE THINGS SECTION */
+
+#things-section {
+  padding: 70px 40px;
+  margin: 70px 0;
+  background-color: #393332;
+  color: white;
+  width: 100%;
+}
+
+#things-section h2 {
+  font-weight: lighter;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.things-container {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: 90%;
+}
+
+.thing {
+  font-size: 14px;
+  width: 20%;
+  margin: 10px auto;
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.thing-img {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  margin-bottom: 23px;
+  transition: 0.5s ease;
+}
+
+.thing-img:hover {
+  padding: 5px;
+}
+
+
+/* INTERESTS */
+
+#interest-section {
+  padding: 10px;
+}
+
+#interest-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: lighter;
+  width: 300px;
+  margin: 0 auto 40px auto;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #664E47;
+  color: #664E47;
+}
+
+.box-container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  gap: 10px;
+}
+
+.box {
+  background-color: #F4F2EE;
+  width: 100%;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  transition: 0.5s ease;
+}
+
+.box:hover {
+  padding: 25px;
+}
+
+.box h3 {
+  color: #31241E;
+  font-weight: lighter;
+}
+
+.box-img {
+  width: 70px;
+  background-color: white;
+  padding: 15px;
+  border-radius: 30px;
+}
+
+/* CONTACT SECTION */
+
+#contact-section {
+  margin: 70px 0 0 0;
+  padding: 80px;
+  background-color: #F4F2EE;
+}
+
+#contact-section h2 {
+  margin: 0 auto;
+  text-align: center;
+  width: 300px;
+  color: #664E47;
+  text-transform: uppercase;
+  font-weight: lighter;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #664E47;
+}
+
+.contact-container {
+  width: 80%;
+  margin: 40px auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-container img {
+  width: 300px;
+  margin-bottom: 30px;
+  border-radius: 50%;
+  transition: 0.5s ease;
+}
+
+.contact-container img:hover {
+  padding: 5px;
+}
+
+.contact-container ul {
+  list-style-type: none;
+}
+
+
+#phone:before,
+#telegram:before,
+#gmail:before {
+  content: '';
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  background-size: 20px;
+  background-repeat: no-repeat;
+  margin-right: 10px;
+}
+
+#phone:before {
+  background-image: url('img/phone.png');
+}
+
+#telegram:before {
+  margin-top: 3px;
+  background-image: url('img/telegram.png');
+}
+
+#gmail:before {
+  margin-top: 3px;
+  background-image: url('img/gmail.png');
+}
+
+.contact-container ul li {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #474545;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1100px) {
+  .why-container {
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
+
+  .why-text {
+    width: 90%;
+  }
+
+  .things-container {
+    flex-direction: column;
+  }
+
+  .thing {
+    width: 60%;
+  }
+
+  .thing-img {
+    width: 90%;
+    height: 10%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  nav {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  #phone,
+  #telegram,
+  #gmail {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+
+  .box h3,
+  footer {
+    font-size: 14px;
+  }
+
+  #phone:before,
+  #telegram:before,
+  #gmail:before {
+    content: '';
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    background-size: 10px;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+  }
+
+  .contact-container img,
+  #contact-section h2 {
+    width: 200px;
+  }
+
+  #phone,
+  #telegram,
+  #gmail {
+    font-size: 12px;
+  }
+}
