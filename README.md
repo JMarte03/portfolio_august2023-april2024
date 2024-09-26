@@ -4,7 +4,7 @@
 
 Tal y como lo indica el título, este es el proyecto final que realicé cuando tomé la materia de Programación Web en el ITLA, hace tres cuatrimestres. Consiste en un sitio en el que se puede visualizar información referente a libros, gracias al uso de una base de datos que tiene toda la información guardada. En este proyecto utilicé HTML, CSS y una plantilla de Bootstrap para el Frontend. Para el Backend utilicé el lenguaje de PHP, y MySQL + phpMyAdmin para la base de datos.
 
-# 🪐 Mars (Octubre 2023) 
+# 👽 Mars (Octubre 2023) 
 
 Es una simple página web que realicé para mi proyecto final de Intro al Coding como parte de una materia del programa de Mujer Digital. Se trata de un espacio personal  en el que hablo un poco sobre mí, mis hobbies e intereses. 
 
